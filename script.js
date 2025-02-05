@@ -51,7 +51,7 @@ yesButton.addEventListener('click', () => {
     console.log("Yes button clicked!"); // Debugging: Check if this logs in the console
 
     // Create a burst of roses
-    for (let i = 0; i < 1000; i++) { // Adjust the number of roses in the burst
+    for (let i = 0; i < 500; i++) { // Adjust the number of roses in the burst
         const x = Math.random() * window.innerWidth;
         const y = Math.random() * window.innerHeight;
         createRose(x, y);
